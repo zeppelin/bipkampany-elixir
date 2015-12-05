@@ -27,6 +27,8 @@ defmodule BipKampany.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    [{:httpoison, "~> 0.8.0"}]
+    [{:httpoison, "~> 0.8.0"},
+    {:mix_test_watch, "~> 0.2", only: :dev},
+    {:mock, "~> 0.1.1", only: :test}]
   end
 end
