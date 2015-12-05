@@ -1,0 +1,2 @@
+defmodule BipKampany do
+end
